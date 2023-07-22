@@ -1,0 +1,33 @@
+:toc:
+:toc-placement: macro
+:toclevels: 4
+toc::[]
+//------------------------------------------------------------------------------------------//
+
+
+== *Concept*
+The "War Operation Plan Response" (WOPR) is an interactive text-based game inspired by the movie "WarGames." It allows the player to interact with an AI named Joshua, who offers various game options for the player to choose from. The game is written in Python and utilizes functions for different functionalities, such as greeting the player, displaying game options, handling user input, and managing game responses. 
+
+
+== *Procedure*
+This program was developed using the Python 3 language, therefore Python must first be installed on your device. The program can be run from the command line by typing the following command:
+
+ Python3 WOPR.py
+
+Once the application has been launched, the player will be greeted by Joshua and asked to enter their name. The player will then be greeted by Joshua and asked if they would like to play a game. The player can respond with "yes" or "no." If the player responds with "yes," Joshua will display a list of game options for the player to choose from. The player can respond with the number of the game they would like to play. 
+
+If the player responds with "no," Joshua will say goodbye and the program will terminate. If the player responds with anything other than "yes" or "no," Joshua will ask the player to try again.
+
+If the player responds with option 15 "Global Thermalnuclear War", Joshua will suggest an alternative response and promt the user with a "yes" or "no" input. Based on the user's response, the terminal will either display a game of chess "The suggested alternative", or the program will display an emergency shutdown message and the program will terminate.
+
+If the player responds with "yes" and proceeds with the suggested alternative, the program will display a standby message, followed by several waiting messages until the request times out and the program terminates.
+
+
+
+[NOTE]
+====
+* The program is not fully functional and is still in development. The program will be updated to include more game options and additional functionality.
+* Currently, the game's interactions and responses are limited to the provided options. Additional functionality and features may be added in the future.
+====
+
+Enjoy!
